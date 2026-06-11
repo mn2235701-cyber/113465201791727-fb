@@ -105,8 +105,8 @@ def get_music():
 # CAPTION
 # =========================
 def get_caption():
-    title = get_random_line("titles.txt")
-    desc = get_random_line("descriptions.txt")
+    title = get_random_line("hashtags.txt")
+    desc = get_random_line("captions.txt")
 
     return title, desc
 
